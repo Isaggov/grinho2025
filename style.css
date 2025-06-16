@@ -6,11 +6,11 @@
 
 :root{
     --preto: #000000;
-    --marinho: #83162e;
-    --amarelo-claro:#a88d04;
-    --roxo-claro:#864d4d;
+    --vinho: #83162e;
+    --amarelo-mostarda:#a88d04;
+    --rosa:#864d4d;
     --verde: #355858;
-    --azul-claro: #e98b69;
+    --salmao: #e98b69;
     --branco: #FFFFFF;
     --marron-claro: #d3b2b2;
 }
@@ -27,14 +27,14 @@ body{
 header {
     display: flex; 
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--vinho);
     padding: 1rem;
     justify-content: center;
 }
 
 .portfolio h1{
     font-size: 4rem;
-    color: var(--amarelo-claro);
+    color: var(--amarelo-mostarda);
 }
 main {
     margin: 48px auto;

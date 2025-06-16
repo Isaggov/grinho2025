@@ -6,20 +6,21 @@
 
 :root {
     --preto: #000000;
-    --marinho: #493D9E;
-    --amarelo-claro: #FFF2AF;
-    --roxo-claro: #B2A5FF;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
+    --vinho: #83162e;
+    --amarelo-mostarda:#a88d04;
+    --rosa:#864d4d;
+    --verde: #355858;
+    --salmao: #e98b69;
     --branco: #FFFFFF;
-    --marron-claro: #FAF1E6;
+    --marron-claro: #d3b2b2;
+   
 }
 
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--azul-claro);
-    color: var(--amarelo-claro);
+    background-color: var(--rosa);
+    color: var(--amarelo-mostarda);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,7 +28,7 @@ body {
 header {
     display: flex;
     width: 100%;
-    background-color: var(--marinho);
+    background-color: var(--vinho);
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -46,7 +47,7 @@ header {
     background-color: var(--preto);
     border: none;
     padding: 1.05rem 1.5rem;
-    color: var(--roxo-claro);
+    color: var(--rosa);
 }
 
 #menu-toggle {
@@ -56,8 +57,8 @@ header {
 .lista-vertical {
     display: none;
     position: absolute;
-    background-color: var(--roxo-claro);
-    box-shadow: 0 2px 5px var(--marinho);
+    background-color: var(--rosa);
+    box-shadow: 0 2px 5px var(--vinho);
     min-width: 190px;
     z-index: 1;
     left: 1rem;
@@ -74,7 +75,7 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--amarelo-claro);
+    background-color: var(--amarelo-mostarda);
 }
 
 #menu-toggle:checked~.lista-vertical {
@@ -82,7 +83,7 @@ header {
 }
 
 #menu-toggle:checked+.botao-disciplinas {
-    background-color: var(--amarelo-claro);
+    background-color: var(--amarelo-mostarda);
 }
 
 .links-principais {
@@ -103,7 +104,7 @@ header {
 
 .lista-horizontal a {
     text-decoration: none;
-    color: var(--amarelo-claro);
+    color: var(--amarelo-mostarda);
 }
 
 .lista-horizontal a:hover {
@@ -168,7 +169,7 @@ h1 {
 
 .conteudo ul li {
     padding: 10px 0;
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--rosa);
     transition: transform 0.5s ease;
     color: var(--preto);
 }
@@ -195,7 +196,7 @@ h1 {
 .conteudo ul li:hover .block {
     display: block;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--vinho);
     margin-bottom: 5px;
 }
 
@@ -205,7 +206,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: opacity 1.5s ease, max-height 1.5s ease;
-    color: var(--marinho);
+    color: var(--vinho);
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -215,6 +216,6 @@ h1 {
     opacity: 1;
     max-height: 320px;
     text-align: justify;
-    color: var(--marinho);
+    color: var(--vinho);
     margin-bottom: 5px;
 }
